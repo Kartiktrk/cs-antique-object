@@ -3,7 +3,15 @@
     padding : 0;
     box-sizing: border-box;
 }
+body{
+    background-color : black;
+    font-family : Caslon Antique;
+}
 
+input :hover{
+    background-color: white;
+    color:black;
+}
 .navbar{
     display : flex;
     align-items : right;
@@ -14,19 +22,22 @@ nav{
     text-align : right;
 }
 nav ul{
+    position:absolute;
     display : inline-block;
     list-style-type: none;
+    margin-left:-6rem;
 }
-nav ul li{
+form{
     display: inline-block;
-    margin-right : 20px;
+    transition: ease-in-out 300ms;
 }
 a{
     text-decoration: none;
-    color : rgb(49, 22, 22);
+    color : white;
     transition: ease-in-out 300ms;
     padding : 0rem 1rem 0rem 1rem;
     border-radius : .3rem;
+    font-size:1rem;
 }
 .container{
     max-width: 1300px;
@@ -35,14 +46,96 @@ a{
     padding-right: 25px;
 }
 nav :hover{
-    background-color : rgba(78, 23, 23, 0.315);
+    color:black;
+    background-color :white;
 }
 .tophome{
-    background :  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0));
+    background :  black;
     background-size: 100% cover;
     width : 100%;
-    height : 100vh;
     background-position: center;
     background-repeat : none;
     position : relative;
+}
+.banner{
+    height : 40%;
+    width:100%;
+    border: solid yellow;
+    background-image :linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('MicrosoftTeams-image\ \(4\).png');
+    background-size: cover;
+}
+.sbyh{
+    height:1.9rem;
+    background-color:rgba(172, 166, 166, 0.356);
+    padding:0.5rem 0.5rem 0.5rem 0.5rem;
+    border: none;
+    border-radius:0.5rem;
+    width:50%;
+    color : white;
+    font-size : 1rem;
+    outline: none;
+    margin-left:40%;
+}
+h1{
+    position : absolute;
+    margin-top : 5rem;
+    font-size : 3rem;
+    margin-left : 45%;
+    color:white;
+}
+.slider{
+    height : 40%;
+    width:60%;
+    margin-left:20%;
+    border: solid yellow;
+    background-image :url('MicrosoftTeams-image\ \(4\).png');
+    background-size: 100% 100%;
+    animation:slider 9s infinite linear;
+}
+
+@keyframes slider{
+    0%{background-image: url('logo.jpg');}
+    25%{background-image: url('bg1.jpg');}
+    50%{background-image: url('furn.png');}
+}
+#java :hover{
+    color : black;
+}
+.flex{
+    display: flex;
+    justify-content:space-evenly;
+}
+.containers{
+    width : 30%;
+    height : 30rem;
+    border : solid yellow;
+    border-radius : 1rem;
+    overflow: hidden;
+    color:white;
+    font-size:1.4rem;
+}
+.fleximg{
+    width : 60%;
+    align-items: center;
+}
+#imp{
+    width : 80%;
+    text-align : center;
+    margin-left : 10%;
+}
+button{
+    background-color: black;
+    border : solid yellow;
+    /*border-radius : 1rem;*/
+    transition: ease-in-out 300ms;
+    border-radius : 0.5rem;
+}
+
+button :hover{
+    background-color : white;
+    color : black;
+}
+
+.bottom{
+    font-size:1.5rem;
 }
