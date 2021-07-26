@@ -1,0 +1,42 @@
+body{
+    color:white;
+    background-color:black;
+}
+.container{
+    width:25%;
+    border:solid yellow;
+    height:15rem;
+    text-align:center;
+    transition: ease-in-out 300ms;
+}
+.auction{
+    background-image :linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('auction-1.jpg');
+    background-size:cover;
+    
+}
+.users{
+    background-image :linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('users.png');
+    background-size:cover;
+    
+}
+.queries{
+    background-image :linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('queries.jpg');
+    background-size:cover;
+    
+}
+.flex{
+    display:flex;
+    justify-content:center;
+    justify-content: space-around;
+    width:100%;
+}
+.title{
+    margin-top: -10rem;
+}
+.container:hover{
+    border : solid red;
+}
+a{
+    text-decoration: none;
+    color:white;
+}

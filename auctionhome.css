@@ -1,0 +1,40 @@
+body{
+    font-family : Caslon Antique;
+}
+ul li a{
+    color : white;
+    text-decoration:none;
+    padding : 0rem 1rem 0rem 1rem;
+    transition: ease-in-out 300ms;
+    border-radius : 0.5rem;
+}
+ul li{
+    display:inline;
+}
+ul{
+    list-style-type: none;
+    float:right;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+table{
+    border : solid yellow;
+    border-collapse: collapse;
+    border-radius : 2rem;
+    width:90%;
+    color:white;
+    text-align: center;
+}
+#ent{
+    background-color:black;
+    color : white;
+    border : none;
+    border-radius: 0.5rem;
+    transition: ease-in-out 300ms;
+}
+#ent:hover{
+    background-color:white;
+    color:black;
+}

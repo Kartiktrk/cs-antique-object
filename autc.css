@@ -1,0 +1,25 @@
+body{
+    font-family:'Otomanopee One' sans-serif;
+}
+input{
+    background : black;
+    border : solid yellow;
+    border-radius : 0.3rem;
+    color:white;
+}
+input:focus{
+    outline:none;
+}
+#imagebid{
+    width:20%;
+    height :20%;
+    position:absolute;
+    margin-top:7rem;
+    margin-left:70%;
+}
+#about{
+    position:absolute;
+    margin-top: 1rem;
+    margin-left:66%;
+    font-size:1.5rem;
+}

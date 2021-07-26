@@ -1,0 +1,34 @@
+input{
+    background-color: black;
+    border : solid yellow;
+    border-radius : 0.5rem;
+    color:white;
+    
+}
+input:focus , textarea:focus{
+    outline: none;
+}
+textarea{
+    background-color: black;
+    border: solid yellow;
+    border-radius:1rem;
+    color:white;
+}
+ul li a{
+    color : white;
+    text-decoration:none;
+    padding : 0rem 1rem 0rem 1rem;
+    transition: ease-in-out 300ms;
+    border-radius : 0.5rem;
+}
+ul li{
+    display:inline;
+}
+ul{
+    list-style-type: none;
+    float:right;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}

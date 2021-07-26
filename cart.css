@@ -1,0 +1,32 @@
+body{
+    background-color:black;
+    color : white;
+    font-family: Caslon Antique;
+}
+#table_id{
+    width : 70%;
+    text-align:center;
+    border : solid gold;
+    border-radius : 1rem;
+}
+ul li a{
+    color : white;
+    text-decoration:none;
+    padding : 0rem 1rem 0rem 1rem;
+    transition: ease-in-out 300ms;
+    border-radius : 0.5rem;
+}
+ul li{
+    display:inline;
+}
+ul{
+    list-style-type: none;
+    float:right;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+#inpt{
+    visibility:hidden;
+}

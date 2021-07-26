@@ -1,0 +1,36 @@
+<html>
+
+<script>
+  function response(){
+    document.getElementsByTagName("h3").innerHTML="We have recieved your email and reply as soon as possible";
+  }
+</script>
+    <link rel="stylesheet" type="text/css" href="contact.css"/>
+   <body style="background-color:black;color:white;font-family: sans-serif;font-family: Caslon Antique;font-size:1.2rem;"> 
+    <ul>
+        <li><a href="home.jsp">Home</a></li>
+        <li><a href="#">Browse</a></li>
+        <li><a href="index.html">Login</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="auction_home.jsp">Auction</a></li>
+    </ul>
+    <br><br>
+    <center><h1>
+        Contact
+    </h1>
+    </center>
+    <h3></h3>
+    <div>
+     <center>
+      <form action="email" style="border:solid gold;border-radius:1rem;width:50%">  
+        <p>Name: <input type="text" name="email_name"></p>
+        <p>Email: <input type="email" name="email_id"></p>
+        <p>Subject: <input type="text" name="subject"></p>
+        <p>Enter your message: <br><textarea rows="20%" cols="60%" name="description"> 
+        </textarea></p>
+        <p><input type="submit" value="Submit" onclick = "response()"/></p>
+      </form>  
+      </center>
+    </div>
+  </body>
+</html>
